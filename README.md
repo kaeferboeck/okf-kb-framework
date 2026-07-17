@@ -46,4 +46,4 @@ Full rules: [GUIDELINES.md](/GUIDELINES.md). Machine enforcement: `python tools/
 
 ## Status
 
-v0.1 — extracted method, fictional example domain. License: Apache-2.0 (planned).
+v0.1 — extracted method, fictional example domain. Licensed under [Apache-2.0](/LICENSE).
