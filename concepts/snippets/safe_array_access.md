@@ -2,13 +2,12 @@
 type: snippet
 title: "Snippet: safe array access"
 description: Verified template for bounds-checked array iteration in DemoLang — the pattern agents should copy instead of inventing len().
-status: verified
+status: stable
+generated: { by: human:kaeferboeck, at: 2026-07-16 }
+verified: { by: human:kaeferboeck, at: 2026-07-16 }
 evidence:
   - "Template compiled & ran on DemoLang 2.4 simulator (2026-07-16), including empty-array edge case"
-verified_by: kk
-last_verified: 2026-07-16
 tags: [snippet, array, bounds, template]
-timestamp: 2026-07-16
 ---
 
 # Snippet: safe array access

@@ -2,17 +2,16 @@
 type: anti-pattern
 title: "Anti-pattern: integer milliseconds passed to timers"
 description: DemoLang timer primitives take SECONDS as float — passing integer milliseconds compiles fine and waits 1000× too long.
-status: verified
+status: stable
+generated: { by: human:kaeferboeck, at: 2026-07-16 }
+verified: { by: human:kaeferboeck, at: 2026-07-16 }
 evidence:
   - "wait_t(500) observed to block a demo cell for ~8.3 minutes instead of 0.5 s (reproduced 2026-07-16, DemoLang 2.4 simulator)"
   - "DemoLang reference §4.2: 'duration: FLOAT, unit seconds'"
-verified_by: kk
-last_verified: 2026-07-16
 support_status: unsupported
 priority: critical
 consult: always
 tags: [anti-pattern, timer, units, safety]
-timestamp: 2026-07-16
 ---
 
 # Anti-pattern: integer milliseconds passed to timers

@@ -2,15 +2,14 @@
 type: anti-pattern-catalog
 title: Anti-pattern catalog
 description: Central index of documented misconceptions — what agents must NOT generate, each entry linked to its detailed concept.
-status: verified
+status: stable
+generated: { by: human:kaeferboeck, at: 2026-07-16 }
+verified: { by: human:kaeferboeck, at: 2026-07-16 }
 evidence:
   - "Each linked entry carries its own evidence trail; this catalog only aggregates"
-verified_by: kk
-last_verified: 2026-07-16
 priority: critical
 consult: always
 tags: [anti-pattern, index, safety]
-timestamp: 2026-07-16
 ---
 
 # Anti-pattern catalog

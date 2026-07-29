@@ -2,14 +2,13 @@
 type: playbook
 title: Incident triage playbook
 description: Systematic reading order for machine incident reports — where to look first, what is normal noise, when alarm text lies.
-status: verified
+status: stable
+generated: { by: human:kaeferboeck, at: 2026-07-16 }
+verified: { by: human:kaeferboeck, at: 2026-07-16 }
 evidence:
   - "Method distilled from production incident analyses on industrial cells (2026); domain specifics anonymized"
-verified_by: kk
-last_verified: 2026-07-16
 priority: high
 tags: [playbook, triage, diagnosis, alarm-vs-rootcause]
-timestamp: 2026-07-16
 ---
 
 # Incident triage playbook

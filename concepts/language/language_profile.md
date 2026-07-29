@@ -2,14 +2,13 @@
 type: language-profile
 title: DemoLang language profile
 description: Verified capability map of DemoLang — supported, unsupported, and partial features, each claim with evidence.
-status: verified
+status: stable
+generated: { by: human:kaeferboeck, at: 2026-07-16 }
+verified: { by: human:kaeferboeck, at: 2026-07-16 }
 evidence:
   - "Each row's evidence inline; profile re-verified as a whole against DemoLang 2.4 simulator (2026-07-16)"
-verified_by: kk
-last_verified: 2026-07-16
 priority: high
 tags: [language-profile, capabilities, verification]
-timestamp: 2026-07-16
 ---
 
 # DemoLang language profile
